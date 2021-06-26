@@ -34,8 +34,9 @@ const useStyles = makeStyles((theme) => ({
       width: "100%",
       left: 0,
       bottom: "100%",
-      top: "auto",
+      top: "-57%",
       paddingLeft: "10px",
+      marginTop: "2rem",
     },
   },
   heading: {
