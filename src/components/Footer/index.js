@@ -19,6 +19,7 @@ const useStyles = makeStyles((theme) => ({
     background: theme.palette.common.black,
     color: theme.palette.common.white,
     padding: theme.spacing(6),
+    marginTop: theme.spacing(9),
     "& .MuiListItem-gutters": {
       paddingLeft: 0,
     },
@@ -35,7 +36,8 @@ export default function Footer(props) {
     <div className={classes.root}>
       <Container>
         <Grid container>
-          <Grid md={true} xs={12} style={{ marginTop: "1rem" }}></Grid>
+          <Grid md={true} xs={12} style={{ marginTop: "1rem" }}>
+          </Grid>
           <Grid md={true} xs={12} style={{ marginTop: "1rem" }}>
             <Typography variant="h5" className={classes.listHeading}>
               Company
